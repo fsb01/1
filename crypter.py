@@ -22,7 +22,7 @@ def crypt(file):
 			print(Fore.GREEN + file + ' Зашифрование завершено!')
 			os.remove(file)
 		except:
-			print (Fore.RED + file + ' Не Декодировка удалась :(')
+			print (Fore.RED + file + ' Не удалось декодировать файл:(')
 
 	elif choose == '2':
 		if '.aes' in file:
